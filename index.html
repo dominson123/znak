@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zakaz wjazdu</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        .znak-zakazu {
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+            position: relative;
+        }
+        .kwadrat {
+            position: absolute;
+            top: 40px;
+            left: 12.5px;
+            width: 75px;
+            height: 20px;
+            background-color: white;
+            border-radius: 7%;
+        }
+        .dash {
+            background-color: cyan;
+            border: 4px solid blue;
+            border-radius: 10px;
+            border-style: dashed;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        .dot {
+            background-color: cyan;
+            border: 4px solid blue;
+            border-radius: 10px;
+            border-style: dotted;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button class="dash">Dash border button</button>
+    <button class="dot">Dotted Border Button</button>
+    <div class="znak-zakazu">
+        <div class="kwadrat"></div>
+    </div>
+</body>
+</html>
